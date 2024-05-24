@@ -1,17 +1,24 @@
 
 .header-container{
-    background-color: black;
     height: 100vh;
     background-color: var(--background-color);
+    background-image: url(./images/Banner/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .nav{
-    background-color: black;
-    display: flex; 
-    gap: 20px; 
     padding: 20px;
+    display: flex; 
     justify-content: space-between;
+    gap: 20px; 
     color: var(--font-primary-color);
     font-size: 36px;
    
+}
+
+#right-menu-icon-id{
+    width: 170px;
+    text-align: right;
+    height: 0px;
 }
