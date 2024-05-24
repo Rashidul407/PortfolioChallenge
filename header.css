@@ -1,0 +1,15 @@
+
+.header-container{
+    background-color: black;
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+.nav{
+    background-color: black;
+    display: flex; 
+    gap: 20px; 
+    padding: 20px;
+    justify-content: space-between;
+    color: var(--font-primary-color);
+}
