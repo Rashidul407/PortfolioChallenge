@@ -50,6 +50,16 @@
     font-size: 40px;
 }
 
+.arrow-icon {
+    width: 100px;
+    gap: 14px;
+}
+.work-icon-container {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+
 .banner-image-container{
     background-color: var(--font-primary-color);
     width: fit-content;
@@ -59,6 +69,21 @@
     height: 300px;
 }
 
+.complete-project-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete-project-card h1{
+    font-size: 152px;
+    
+}
+.complete-project-card p{
+    font-size: 40px;
+    text-transform: uppercase;
+}
 @media only screen and (min-width: 200px) and (max-width: 776px){
     .nav{
         font-size: 16px;
